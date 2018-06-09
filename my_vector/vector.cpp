@@ -82,6 +82,7 @@ size_t vector::size() const {
 void vector::resize(size_t size) {
     if (size == count)
         return;
+    copy();
     if (size <= 1){
         if (is_big()) {
             uint32_t q = big->at(0);
@@ -104,6 +105,7 @@ void vector::resize(size_t size) {
 }
 
 uint32_t &vector::operator[](size_t index) {
+    copy();
     if (count <= 1)
         return value;
     return big->at(index);

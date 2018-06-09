@@ -15,6 +15,7 @@
     <list default="true" id="5be6ebed-8b26-4033-9e5e-6ecd5f5db9e3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="stl_algobase.h" pinned="false" current-in-tab="false">
@@ -37,17 +38,17 @@
       <file leaf-file-name="vector.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_vector/vector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="288">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vector.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vector.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_vector/vector.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -55,8 +56,8 @@
       <file leaf-file-name="big_integer_testing.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/big_integer_testing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="487" selection-start-line="487" selection-end-line="487" />
+            <state relative-caret-position="116">
+              <caret line="486" selection-start-line="486" selection-end-line="486" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -82,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="big_integer.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="big_integer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/big_integer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="589" column="1" lean-forward="true" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
+            <state relative-caret-position="-3924">
+              <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -119,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/gtest/gtest.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="106">
-              <caret line="18860" selection-start-line="18860" selection-end-line="18860" />
+              <caret line="18892" selection-start-line="18892" selection-end-line="18892" />
             </state>
           </provider>
         </entry>
@@ -147,9 +148,9 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/big_integer.h" />
-        <option value="$PROJECT_DIR$/my_vector/vector.cpp" />
         <option value="$PROJECT_DIR$/my_vector/vector.h" />
         <option value="$PROJECT_DIR$/big_integer.cpp" />
+        <option value="$PROJECT_DIR$/my_vector/vector.cpp" />
       </list>
     </option>
   </component>
@@ -252,7 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528393341347</updated>
-      <workItem from="1528393343881" duration="22835000" />
+      <workItem from="1528393343881" duration="24500000" />
     </task>
     <servers />
   </component>
@@ -289,7 +290,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22835000" />
+    <option name="totallyTimeSpent" value="24500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -297,15 +298,15 @@
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24980783" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32882884" />
-      <window_info anchor="bottom" id="CMake" order="4" />
+      <window_info anchor="bottom" id="CMake" order="4" weight="0.32882884" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32882884" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3993994" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -350,11 +351,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/big_integer_testing.cpp</url>
-          <line>11</line>
-          <option name="timeStamp" value="15" />
+          <line>486</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -487,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/gtest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="18860" selection-start-line="18860" selection-end-line="18860" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/big_integer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -520,35 +514,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/big_integer_testing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        <state relative-caret-position="116">
+          <caret line="486" selection-start-line="486" selection-end-line="486" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_vector/vector.cpp">
+    <entry file="file://$PROJECT_DIR$/gtest/gtest.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_vector/vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="106">
+          <caret line="18892" selection-start-line="18892" selection-end-line="18892" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/big_integer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="589" column="1" lean-forward="true" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
+        <state relative-caret-position="-3924">
+          <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_vector/vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_vector/vector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
         </state>
       </provider>
     </entry>
