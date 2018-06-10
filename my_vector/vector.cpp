@@ -134,7 +134,34 @@ void vector::copy() {
 
 vector::vector(const vector &other) {
     count = 0;
-    *this = other;
+    if (other.size() > 1){
+        if (is_big()){
+            big.reset();
+            new(&big) std::shared_ptr<std::vector<uint32_t>>(other.big);
+            count = other.size();
+        }
+        else{
+            new(&big) std::shared_ptr<std::vector<uint32_t >>(other.big);
+            count = other.size();
+        }
+    }
+    else{
+        if (is_big()){
+            big.reset();
+            count = other.size();
+            if (other.size() == 0)
+                value = 0;
+            else
+                value = other[0];
+        }
+        else{
+            count = other.size();
+            if (other.size() == 0)
+                value = 0;
+            else
+                value = other[0];
+        }
+    }
 
 }
 
